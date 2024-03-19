@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Footer() {
+export default function Footer(props) {
   return (
-    <footer>
+    <footer className={props.darkMode ? 'dark' : ''}>
       <div className="footer-icons">
         <a href="https://www.linkedin.com/in/johnmarktizado/" target="_blank">
           <img src="./LinkedIn.png" className="icons" />
